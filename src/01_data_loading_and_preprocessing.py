@@ -2,14 +2,15 @@
 # ## Project environment
 #%%
 # Importing libraries
-import os
 import pandas as pd
 from pathlib import Path
 
-# Project folder directory
-os.chdir("C:/GitHub/SupplierSegmentation-Clustering") # Main project folder
-data_dir = Path("data/raw") # Source data location
-processed_dir = Path("data/processed") # Processed data location
+# Project root (current working) directory
+project_root = Path.cwd()
+
+# Define project directory
+data_dir = project_root / "data" / "raw"
+processed_dir = project_root / "data" / "processed"
 #%% md
 # ## Load source data
 # [![Format](https://img.shields.io/badge/Format-CSV-orange)]()

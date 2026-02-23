@@ -2,24 +2,22 @@
 # ## Project environment
 #%%
 # Importing libraries
-import os
-import pandas as pd
-import matplotlib.pyplot as plt
 from pathlib import Path
 import seaborn as sns
-import numpy as np
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
-
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
-# Project folder directory
-os.chdir("C:/GitHub/SupplierSegmentation-Clustering") # Main project folder
-processed_dir = Path('data/processed') # Location processed data file
+# Project root (current working) directory
+project_root = Path.cwd()
+
+while project_root.name != "SupplierSegmentation-Clustering":
+    project_root = project_root.parent
+
+# Define project directory
+processed_dir = project_root / "data" / "processed"
 #%% md
 # ## Load processed (aggregated) data
 #%%
