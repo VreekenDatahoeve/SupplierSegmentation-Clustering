@@ -11,12 +11,10 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 # Project root (current working) directory
-project_root = Path.cwd()
-
-while project_root.name != "SupplierSegmentation-Clustering":
-    project_root = project_root.parent
+project_root = Path.cwd().parent
 
 # Define project directory
+data_dir = project_root / "data" / "raw"
 processed_dir = project_root / "data" / "processed"
 #%% md
 # ## Load processed (aggregated) data
@@ -97,11 +95,9 @@ cluster_summary
 output_file = "supplier_segmentation.csv"
 agg_df.to_csv(processed_dir / output_file)
 #%%
-agg_df.info()
-#%%
 # Visualize supplier clusters
 
-plt.figure(figsize=(8,6))
+plt.figure(figsize=(8,5))
 
 sns.scatterplot(
     data=agg_df,
@@ -113,4 +109,8 @@ sns.scatterplot(
 )
 plt.tight_layout()
 plt.title("Supplier segmentation based on total spend and invoice frequency")
+
+# Save scatterplot
+plt.savefig(project_root / "outputs" / "supplier_clusters.png", dpi=300)
+
 plt.show()
