@@ -1,2 +1,8 @@
-# SupplierSegmentation-Clustering
-An analytics use case demonstrating supplier segmentation based on real public sector invoice data. The project covers exploratory data analysis, supplier level feature engineering and unsupervised learning to identify meaningful supplier segments.
+# Supplier Clustering using K-means
+
+With this project, I aim to provide an unsupervised learning model, using K-means, to gain supplier insight and support data-driven decision making. It focuses on understanding and managing suppliers by analysing their invoice patterns.
+
+By identifying meaningful supplier segments, this approach provides insight into the supplier base and helps to create more grip on spend, supplier relationships, and procurement priorities.
+
+The project structure and model are designed to be easy to read, and understand and apply to other datasets.
+
