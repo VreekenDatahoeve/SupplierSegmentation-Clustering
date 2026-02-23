@@ -6,3 +6,7 @@ By identifying meaningful supplier segments, this approach provides insight into
 
 The project structure and model are designed to be easy to read, and understand and apply to other datasets.
 
+## Feedback
+
+Feel free to open an issue if you have questions or suggestions.
+
