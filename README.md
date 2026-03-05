@@ -13,6 +13,8 @@ This project uses unsupervised learning to analyze invoice data and identify mea
 SupplierSegmentation-Clustering/
 │
 ├── data/
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
 │   ├── 01_data_loading_and_preprocessing.ipynb
