@@ -11,6 +11,13 @@ It helps answer questions such as:
 - Which suppliers represent relatively low spend (tail spend) and may indicate opportunities for consolidation?
 - How can supplier segmentation support prioritisation in procurement activities?
 ---
+### 📊 Example output
+
+Below is an example of the supplier segmentation based on total spend and invoice frequency.
+
+![Supplier Segmentation](images/supplier_segmentation.png)
+
+
 ### 📁 REPOSITORY STRUCTURE
 ```
 SupplierSegmentation-Clustering/
@@ -37,7 +44,7 @@ SupplierSegmentation-Clustering/
 └── README.md
 ```
 ---
-### 📊 DATA
+### 🔢 DATA
 
 The analysis uses an open dataset published via the European Open Data Portal.
 
@@ -55,23 +62,6 @@ data/raw/
 ### 🧠 METHODOLOGY
 
 The project follows a standard analytical workflow to transform the raw data:
-
-```
-Data loading
-↓
-Data cleaning & preprocessing
-↓
-Feature engineering
-↓
-Feature scaling
-↓
-Choosing optimal number of clusters (Elbow / Silhouette)
-↓
-K-Means clustering
-↓
-Cluster interpretation & business insight
-```
-The steps from this workflow are documented in the following notebooks:
 
 1. **Data loading & preprocessing**  
    [01_data_loading_and_preprocessing.ipynb](./notebooks/01_data_loading_and_preprocessing.ipynb)
