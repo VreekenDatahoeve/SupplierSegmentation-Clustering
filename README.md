@@ -2,11 +2,14 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-FFC61C?style=for-the-badge&logo=scikitlearn&logoColor=black)
-  
-This project uses unsupervised learning to analyze invoice data and identify meaningful supplier segments. These insights support better data-driven decision making in supplier management and help answer questions such as:
 
-- Which suppliers show characteristics of strategic suppliers and may require closer attention in contract management?
-- Which suppliers represent relatively low spend and form part of the tail spend, potentially indicating opportunities for supplier rationalisation?
+This project uses unsupervised learning to analyze invoice data and identify meaningful supplier segments. The focus is on translating analytical results into insights that are understandable and usable in a business context.
+
+It helps answer questions such as:
+
+- Which suppliers show characteristics of strategic partners and may require closer attention in contract management?
+- Which suppliers represent relatively low spend (tail spend) and may indicate opportunities for consolidation?
+- How can supplier segmentation support prioritisation in procurement activities?
 ---
 ### 📁 REPOSITORY STRUCTURE
 ```
@@ -122,11 +125,10 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 I am currently working on an extension of this project, which includes:
 
-* Integrating (synthetic) contract data to enrich the supplier dataset.
-* Developing a supervised learning model to predict contract coverage or supplier risk.
-* Expanding supplier segmentation with (supplier profile) features.
-* Developing a ready-to-use dashboard based on business requirements.
+* Enrich segmentation with contract features.
+* Extend toward supplier risk prediction.
+* Developing ready-to-use dashboard for decision support.
+  
 ---
-### 🤝 COLLABORATION
-
-Questions or ideas for improvements? Feel free to open an issue or reach out.
+### ⭐ If you found this useful
+Feel free to star the repository or share your thoughts.
