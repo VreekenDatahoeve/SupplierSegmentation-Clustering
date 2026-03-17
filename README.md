@@ -15,7 +15,7 @@ It helps answer questions such as:
 
 Below is an example of the supplier segmentation based on total spend and invoice frequency.
 
-![Supplier Segmentation](images/supplier_segmentation.png)
+<img src="outputs/supplier_clusters.png" width="600">
 
 
 ### 📁 REPOSITORY STRUCTURE
