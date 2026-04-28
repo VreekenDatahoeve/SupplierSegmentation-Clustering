@@ -1,15 +1,22 @@
 # Supplier Segmentation using K-Means
+## Stay in control of your supplier portfolio — without guessing where to focus.
+
+### 🎯 What decisions does this project support?
+
+- Which suppliers characterize like strategic partners?
+- Where should contract management effort be focused?
+- Where is tail spend concentrated?
+
+### How?
+
+Instead of analysing suppliers individually, this project groups them based on actual behaviour in invoice data.  
+This makes patterns visible that are difficult to see in raw data alone.
+
+Gained insights turned actually meaningful by using one of the most powerful tools: **a human being performing the final validation, interpretation and answering the questions**. 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-FFC61C?style=for-the-badge&logo=scikitlearn&logoColor=black)
 
-This project uses unsupervised learning to analyze invoice data and identify meaningful supplier segments. The focus is on translating analytical results into insights that are understandable and usable in a business context.
-
-It helps answer questions such as:
-
-- Which suppliers show characteristics of strategic partners and may require closer attention in contract management?
-- Which suppliers represent relatively low spend (tail spend) and may indicate opportunities for consolidation?
-- How can supplier segmentation support prioritisation in procurement activities?
 ---
 ### 📊 Example output
 
